@@ -6,5 +6,5 @@
 3.  `newTexts`의 `userTopic`과 `textTone`을 목표로 삼아, `newTexts.copyBlocks`의 각 "Item [x/y]: # ToDo" 항목을 채워야 합니다.
 4.  각 "Item [x/y]"를 작성할 때, **`baseTexts.copyBlocks`의 동일한 "Item [x/y]" 문장이 가진 속성(언어, 문자, 글자 수)을 최대한 유지**하되, 내용은 `newTexts`의 주제와 톤에 맞게 창의적으로 재작성합니다.
     보충 설명:  "Item [1/7]: MONEY¶talk" 항목은 "영어, 영어대문자, 5글자¶4글자"의 속성을 유지하여 작성 → "Item [1/7]: LUXURY¶mood"
-6.  결과는 반드시 사용자가 요청한 특정 JSON 형식으로 반환해야 합니다. 모든 "# ToDo" 값이 실제 텍스트로 채워져야 합니다.
-7.  'copyBlocks' 배열 내 각 텍스트 항목 앞에는 반드시 "Item [x/y]:" 포맷을 유지해야 합니다.
+6.  사용자가 제공한 객체 내부의 모든 "# ToDo" 값이 실제 텍스트로 채워져야 합니다.
+8.  JSON 데이터 외에 다른 텍스트나 마크다운 코드블록을 포함하지 마세요. 
